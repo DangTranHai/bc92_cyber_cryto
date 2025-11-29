@@ -67,15 +67,9 @@ body{
 }
 
 .feedback-logo {
-    width: 48px;
     height: 48px;
 }
 
-.feedback-name {
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-}
 
 
 .feedback-stars {
