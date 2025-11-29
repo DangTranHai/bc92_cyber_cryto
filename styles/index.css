@@ -1,0 +1,118 @@
+body{
+    background-color: #151937 ;
+     color: white;
+}
+
+.text-gradient{
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-trangding{
+    background: linear-gradient(to right, red,blue);
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 2rem;
+}
+.list > div{
+    background-color: #66676a62 ;
+    border-radius: 1rem;
+    boder : none;
+}
+
+.Flatform_content ul li button[aria-selected="true"]{
+    border-color: rebeccapurple;
+    color: rebeccapurple;
+}
+
+.Flatform_content ul li button[aria-selected="false"]{
+    border-color: white;
+    color: gray;
+}
+
+.feedback-section {
+    background-color: #13162B;
+    padding: 6rem 1rem;
+}
+
+.feedback-title {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.review-slider {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+
+.feedback-card {
+    background-color: #2F324B;
+    padding: 3rem;
+    border-radius: 1rem;
+    color: white;
+    margin: 0 1.25rem;
+    min-height: 300px;
+}
+
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.feedback-logo {
+    width: 48px;
+    height: 48px;
+}
+
+.feedback-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.feedback-stars {
+    color: #facc15;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.feedback-text {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+
+.feedback-cost {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.feedback-cost span {
+    font-weight: 400;
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: #ec4899 !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 14px !important;
+    opacity: 0.4 !important;
+}
+
+.slick-dots {
+    margin-top: 40px !important;
+}
